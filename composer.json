@@ -1,0 +1,12 @@
+{
+    "name": "fdeweger/quickbox",
+    "authors": [
+        {
+            "name": "Frank de Weger",
+            "email": "frankdeweger@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*"
+    }
+}

@@ -1,0 +1,12 @@
+[submodule "support/puppet/modules/apache"]
+	path = support/puppet/modules/apache
+	url = https://github.com/puppetlabs/puppetlabs-apache
+[submodule "support/puppet/modules/mysql"]
+	path = support/puppet/modules/mysql
+	url = https://github.com/puppetlabs/puppetlabs-mysql
+[submodule "support/puppet/modules/stdlib"]
+	path = support/puppet/modules/stdlib
+	url = git@github.com:puppetlabs/puppetlabs-stdlib.git
+[submodule "support/puppet/modules/concat"]
+	path = support/puppet/modules/concat
+	url = git@github.com:puppetlabs/puppetlabs-concat.git
