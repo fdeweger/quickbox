@@ -71,6 +71,11 @@ class quickbox::php {
         require => Class['::apache::mod::php']
     }
 
+    package { 'php5-json' :
+	ensure => installed,
+	require => Class['::apache::mod::php']
+    }
+
     # Use custom php.ini for apache
     file { '/etc/php5/apache2/php.ini' :
         source => '/vagrant/support/puppet/files/php.ini',
