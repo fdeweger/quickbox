@@ -4,9 +4,10 @@ Exec {
 }
 
 # Uncomment to include apache, mysql, php etc etc
-include quickbox::apache
-include quickbox::php
-include quickbox::mysql
+#include quickbox::apache
+#include quickbox::php
+#include quickbox::mysql
+include quickbox::elasticsearch
 
 # Have all you handy-dandy aliases under version control and in your box :)
 file { '/home/vagrant/.bash_aliases' :
