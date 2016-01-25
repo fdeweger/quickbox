@@ -8,6 +8,7 @@ Exec {
 #include quickbox::php
 #include quickbox::mysql
 include quickbox::elasticsearch
+include quickbox::postgresql
 
 # Have all you handy-dandy aliases under version control and in your box :)
 file { '/home/vagrant/.bash_aliases' :

@@ -13,3 +13,6 @@
 [submodule "support/puppet/modules/elasticsearch"]
 	path = support/puppet/modules/elasticsearch
 	url = https://github.com/elastic/puppet-elasticsearch.git
+[submodule "support/puppet/modules/postgresql"]
+	path = support/puppet/modules/postgresql
+	url = https://github.com/puppetlabs/puppetlabs-postgresql.git
