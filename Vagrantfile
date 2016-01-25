@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 Vagrant.configure("2") do |config|
   # v2 configs...
-  config.vm.box = 'ubuntu_utopic-x64'
-  config.vm.box_url = 'https://cloud-images.ubuntu.com/vagrant/utopic/current/utopic-server-cloudimg-amd64-vagrant-disk1.box'
+  config.vm.box = 'ubuntu_wily-x64'
+  config.vm.box_url = 'https://cloud-images.ubuntu.com/vagrant/wily/current/wily-server-cloudimg-amd64-vagrant-disk1.box'
 
   # Use :gui for showing a display for easy debugging of vagrant
   #config.vm.boot_mode = :gui
