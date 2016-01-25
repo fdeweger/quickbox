@@ -15,9 +15,11 @@ box is just to play around with and not secure in any way.
 
 Installed software
 ------------------
- - Ubuntu 14.10
- - MySQL Server 5.5
- - PHP 5.5 (With php5-mysql and php5-curl)
+ - Ubuntu 15.10
+ - MySQL Server
+ - Postgresql
+ - Elastic search (installed, nothing configured though)
+ - PHP 5.6 (With php5-mysql and php5-curl)
  - Apache 2
  - Composer
  - PHPUnit
