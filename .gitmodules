@@ -10,3 +10,6 @@
 [submodule "support/puppet/modules/concat"]
 	path = support/puppet/modules/concat
 	url = https://github.com/puppetlabs/puppetlabs-concat
+[submodule "support/puppet/modules/elasticsearch"]
+	path = support/puppet/modules/elasticsearch
+	url = https://github.com/elastic/puppet-elasticsearch.git
